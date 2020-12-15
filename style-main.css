@@ -1,0 +1,123 @@
+@font-face {
+font-family: 'San Francisco Display Thin';
+src: url('fonts/SFUIDisplay-Thin.eot');
+src: url('fonts/SFUIDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+url('fonts/SFUIDisplay-Thin.woff') format('woff'),
+url('fonts/SFUIDisplay-Thin.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'San Francisco Display Regular';
+src: url('fonts/SFUIDisplay-Regular.eot');
+src: url('fonts/SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+url('fonts/SFUIDisplay-Regular.woff') format('woff'),
+url('fonts/SFUIDisplay-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'San Francisco Text Heavy';
+src: url('fonts/SFUIText-Heavy.eot');
+src: url('fonts/SFUIText-Heavy.eot?#iefix') format('embedded-opentype'),
+url('fonts/SFUIText-Heavy.woff') format('woff'),
+url('fonts/SFUIText-Heavy.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+.fH {font-family: 'San Francisco Text Heavy';}
+.fd {font-family: 'San Francisco Display Regular';}
+.fl {font-family: 'San Francisco Display Thin';}
+.wrapper_head{
+  width: 100%;
+}
+
+.wrapper_content{
+  margin-top: 2%;
+  outline: 1px solid #000;
+  border-radius: 10px;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.wrapper_footer{
+  background-color: #2c2c2c;
+  height: 80px;
+  width: auto;
+  display: grid;
+  grid-template-areas: "contacts contacts2 label copyright";
+  grid-template-columns: 110px 1fr 1fr 1fr;
+  margin-top: 10px;
+}
+
+logo{
+    grid-area: logo;
+}
+img{
+  border-radius: 2px;
+}
+
+.whole_menu_div{
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto;
+  grid-template-areas: "logo menu";
+  width: 100%;
+}
+
+
+.menu_ul li{
+  display: inline;
+  margin-left: 10px;
+  grid-area: menu;
+}
+
+.menu_ul a{
+  
+  text-decoration: none;
+}
+
+.menu_link{
+  color: #2c2c2c;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.menu_ul a:hover{
+  color: rgb(23, 172, 217);
+}
+
+.footer_p{
+  display: flex;
+  font-family: 'Arial', cursive;
+  text-transform: uppercase;
+  color: #ffffff;
+  grid-area: label;
+  justify-content: center;
+  padding-top: 0%;
+}
+
+.footer_p p{
+  font-size: 140%;
+}
+
+.footer_contacts{
+  margin-left: 1%;
+  color: rgb(141, 138, 138);
+  grid-area: contacts;
+}
+.footer_contacts2{
+  margin-top: 3%;
+  color: rgb(141, 138, 138);
+  grid-area: contacts2;
+}
+
+.footer_copyright{
+  margin-right: 1%;
+  text-align: justify;
+  padding-top: 0%;
+  color: rgb(141, 138, 138);
+  grid-area: copyright;
+  font-size: 80%;
+}

@@ -1,0 +1,32 @@
+
+.text_content_main{
+  width: auto;
+  display: grid;
+  grid-template-areas: "text1 ssd"
+                       "text2 text2"
+                       "text3 text3"
+                       "facts facts";
+  grid-template-columns: 87% 12%;
+}
+.text1{
+    margin-top: 1%;
+    margin-left: 2%;
+    grid-area: text1;
+}
+.text2{
+    margin-left: 2%;
+    grid-area: text2;
+}
+.text3{
+    margin-left: 2%;
+    grid-area: text3;
+}
+.facts{
+    margin-left: 2%;
+    grid-area: facts;
+}
+.ssd{
+    margin-top: 3%;
+    margin-left: 30%;
+    grid-area: ssd;
+}
