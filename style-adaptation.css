@@ -39,8 +39,8 @@
   }
 
   .menu_ul{
-    background-image: url(https://64.media.tumblr.com/4a0f21c52c4f20c28f9d47624ead1b76/3a34809c75a2c975-f6/s400x600/5c612e9476184ae36797b212fda4f7afeb05bce6.gif);
-    background-size: 200%;
+    background-image: url(https://media0.giphy.com/media/ZH82yukB6v8xq/giphy.gif?cid=ecf05e474076e82e09ca3aa01b139b6577e71149d131a9e3&rid=giphy.gif);
+    background-size: 120%;
     bottom: 0;
     height: 100%;
     left: 0;
@@ -65,12 +65,12 @@
   }
 
   .menu_ul li:hover{
-    color: rgb(169, 23, 217);
+    color: rgb(255, 255, 255);
   }
 
 
   .menu_link{
-    color: #360767;
+    color: #ffffff;
     font-size: 110%;
   }
 
