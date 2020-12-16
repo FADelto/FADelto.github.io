@@ -1,5 +1,13 @@
 @media screen and (max-width: 768px) {
 
+
+@keyframes AnimationName {
+    0%{background-position:0% 22%}
+    50%{background-position:100% 79%}
+    100%{background-position:0% 22%}
+}
+    
+  
   h1{
     font-size: 90%;
   }
@@ -39,8 +47,9 @@
   }
 
   .menu_ul{
-    background-image: url(https://media0.giphy.com/media/ZH82yukB6v8xq/giphy.gif?cid=ecf05e474076e82e09ca3aa01b139b6577e71149d131a9e3&rid=giphy.gif);
-    background-size: 120%;
+    background: linear-gradient(307deg, #ffffff, #000000, #00c4ff);
+    background-size: 100% 100%;
+    animation: AnimationName 44s ease infinite;
     bottom: 0;
     height: 100%;
     left: 0;
