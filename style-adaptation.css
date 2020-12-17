@@ -19,13 +19,12 @@
   }
 
   .wrapper_footer{
-      margin-left: 1%;
-      background-color: #2c2c2c;
+
       height: 80px;
       width: auto;
       display: grid;
-      grid-template-areas: "contacts copyright";
-      grid-template-columns: 40% 60%;
+      grid-template-areas: "copyright contacts";
+      grid-template-columns: 60% 40%;
       margin-top: 10px;
   }
   .jpg{
@@ -191,20 +190,19 @@
 }
 
 .footer_contacts{
-  margin-left: 1%;
+  margin-left: 8%;
   color: rgb(141, 138, 138);
   grid-area: contacts;
 }
 .footer_contacts2{
-  margin-top: 27%;
-  margin-left: 10%;
+  margin-top: 29%;
+  margin-left: 29%;
   color: rgb(141, 138, 138);
   grid-area: contacts;
 }
 
 .footer_copyright{
-  margin-right: 1%;
-  margin-left: 3%;
+  margin-right: 3%;
   margin-top: 20%
   text-align: justify;
   padding-top: 0%;
@@ -214,4 +212,7 @@
 }
 
 } transition: 0.4s;
+}
+@media screen and (min-width: 1195px) and (max-width: 1500px) {
+    margin-left: 110%;
 }
