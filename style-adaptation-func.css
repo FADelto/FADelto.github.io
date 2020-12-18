@@ -1,13 +1,5 @@
 @media screen and (max-width: 768px) {
 
-
-@keyframes AnimationName {
-    0%{background-position:0% 22%}
-    50%{background-position:100% 79%}
-    100%{background-position:0% 22%}
-}
-    
-  
   h1{
     font-size: 100%;
   }
@@ -159,7 +151,8 @@
                        "ssd"
                        "text2"
                        "text3"
-                       "facts";
+                       "facts"
+                       "text4";
   grid-template-columns: 99%;
 }
 .text1{
@@ -179,12 +172,21 @@
     margin-left: 2%;
     grid-area: facts;
 }
-.ssd{
-    transform: rotate(-90deg);
-    margin-top: -50%;
+.text4{
+    margin-left: 2%;
+    grid-area: text4;
+}
+.photo{
+    margin-top: 0%;
     margin-left: 1%;
     grid-area: ssd;
+    width: 312px; 
+    height: 230px; 
 }
+.imm{
+        margin-top: 3%;
+        margin-left: 2%;
+    }
 
 .footer_p p{
   font-size: 100%;
